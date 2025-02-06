@@ -1,0 +1,52 @@
+
+
+.navbar{
+    display: flex;
+justify-content: space-around;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    color: white;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    
+    padding-top: 50px;
+    gap: 150px;
+    justify-content: center;
+}
+.y::first-line{font-size: 50px;
+               color: yellow;
+               font-weight: bold;
+}
+.news{
+    font-size: 30px;
+    color: aliceblue;
+}
+.ch1{font-family: Verdana;
+     font-weight: 100;
+}
+
+.para{
+    color: beige;
+}
+
+.b{
+    text-decoration: darkgoldenrod;
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+.in1{
+    border: 0px;
+    border-radius: 20px;
+}
+
+.in2{
+    border: 0px;
+    border-radius: 20px;
+}

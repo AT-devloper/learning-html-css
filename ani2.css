@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.b{ font-family: sans-serif;
+    padding: 5px;
+}
+.b:hover{
+
+    background-color: ind
+    ianred;
+    color: #fff;
+    padding: 7px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.img{
+    
+    width: 200px;
+    padding: 1px;
+    border: 2px solid black ;
+    
+}
+
+.img:hover{
+    scale: 1.5;
+    border: none;
+    transition: all .4s;
+    animation-name:demo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes demo{
+    0%{rotate: 0deg;}
+    25%{rotate: 45deg;}
+    50%{rotate: 0deg}
+    75%{rotate: -45deg;}
+    100%{ rotate: 0deg;}
+}
