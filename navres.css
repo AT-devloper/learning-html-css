@@ -13,19 +13,37 @@
 }
 .navbar label{
     display: none;
-
+}
+#click{
+    display: none;
 }
 #click:checked~.navbar ul{
     display: block;
 }
 
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:700px) {
     .navbar label{
         display: block;
     }
     .navbar ul{
         display: none;
+        position: absolute;
+        top: 60px;
+        background-color:transparent;
+        width: 90%;
+        
+
     }
-    
+    .navbar ul li{
+        
+        padding: 20px;
+        color: #fff
+    }
+}
+h1{
+    font-family: "Poppins", serif;
+}
+p{
+    font-family: "Pacifico", serif;
 }
